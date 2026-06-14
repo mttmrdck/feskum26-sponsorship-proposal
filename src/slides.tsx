@@ -545,7 +545,7 @@ const Slide11 = () => (
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-white/80">
          <div className="flex items-center gap-3 bg-[#000000] px-6 py-3 border border-white/5 hover:border-[#FF007F]/50 transition-colors cursor-pointer group">
            <Mail className="text-[#FF007F] group-hover:scale-110 transition-transform" size={20} />
-           <span className="font-mono text-sm tracking-wide">sponsorship@feskum.um.edu.my</span>
+           <span className="font-mono text-sm tracking-wide">feskum@um.edu.my</span>
          </div>
          <div className="flex items-center gap-3 bg-[#000000] px-6 py-3 border border-white/5">
            <MapPin className="text-[#FF007F]" size={20} />
