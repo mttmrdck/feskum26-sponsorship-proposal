@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;800;900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-neon-pink: #FF007F;
+  --color-matte-black: #050505;
+}
+
+body {
+  @apply bg-[#000000] text-white;
+}
+
+.text-neon {
+  color: #FF007F;
+}
+
+.border-neon {
+  border-color: #FF007F;
+}
+
+.bg-neon {
+  background-color: #FF007F;
+}
+
+.glow-panel {
+  background: transparent;
+}
